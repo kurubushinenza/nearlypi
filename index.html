@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | nearlypi</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 720px; height: 960px; background: #231F20"></canvas>
+    <script src="Build/521b70268c8fab9841964e1b75279d0c.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/56491a9ac182adf87e19b37664bd2604.gz",
+        frameworkUrl: "Build/827f65c4441e51e4f703e2467fdc6d72.gz",
+        codeUrl: "Build/9596bdb1238b3b42c8a7c9ecf45ed029.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "nearlypi",
+        productVersion: "0.1",
+      });
+    </script>
+  </body>
+</html>
